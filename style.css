@@ -1,0 +1,1122 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #0D192A;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #0D192A, transparent), url("images/hero-antalya.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
+h1 {
+    color: #F5F0E8;
+    font-size: 64px;
+    font-family: Georgia, serif;
+}
+
+.hero-content {
+    max-width: 650px;
+    padding-top: 120px;
+    padding: 120px 0 0 100px;
+}
+
+.hero-label {
+    color: #D4AF37;
+}
+
+.hero-description {
+    color: #D1D5DB;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.logo {
+    color: #D4AF37;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: #0D192A;
+}
+
+nav a {
+    color: #F5F0E8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #D4AF37;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #D4AF37;
+    color: #0D192A;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-5px);
+}
+
+.translation-button {
+    display: inline-block;
+    border: 2px solid #D4AF37;
+    color: #F5F0E8;
+    padding: 18px 48px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.translation-button:hover {
+    background-color: #D4AF37;
+    color: #0D192A;
+    transform: translateY(-5px);
+}
+
+.services {
+    background-color: #0D192A;
+    padding: 100px 60px;
+}
+
+.services h2 {
+    color: #F5F0E8;
+    font-size: 42px;
+}
+
+.services-label {
+    color: #D4AF37;
+    font-size: 16px;
+}
+
+.service-card {
+    background-color: #1A2D44;
+    padding: 30px;
+    max-width: 300px;
+    color: #F5F0E8;
+    border-radius: 12px;
+    border: 3px solid #D4AF37;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    color: #D4AF37;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #F5F0E8;
+}
+
+.service-card p {
+    font-size: 17px;
+    color: #C7D0DC;
+    line-height: 1.6;
+}
+
+.about {
+    background-color: #0D192A;
+    padding: 100px 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-content .about-label {
+    color: #D4AF37;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.about h2 {
+    color: #F5F0E8;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.about-content {
+    max-width: 700px;
+}
+
+.about-content p {
+    color: #C7D0DC;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: brightness(0.8);
+}
+
+.contact {
+    background-color: #101E32;
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.contact-label {
+    color: #D4AF37;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.contact h2 {
+    color: #F5F0E8;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.contact-description {
+    color: #C7D0DC;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #091321;
+    padding: 60px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-brand h2 {
+    color: #D4AF37;
+    font-size: 28px;
+}
+
+.footer-brand p {
+    color: #C7D0DC;
+    font-size: 16px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav a {
+    color: #F5F0E8;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #344054;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    color: #8995A7;
+    font-size: 14px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-contact a {
+    color: #C7D0DC;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-contact svg {
+    color: #D4AF37;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.footer-contact a:hover {
+    color: #D4AF37;
+}
+
+.translations {
+    background-color: #1A2D44;
+    padding: 100px 60px;
+}
+
+.translations-label {
+    color: #D4AF37;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.translations h2 {
+    color: #F5F0E8;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.translations-description {
+    color: #C7D0DC;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 650px;
+}
+
+.translations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.translation-card {
+    background-color: #263D57;
+    padding: 35px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.translation-card:hover {
+    transform: translateY(-6px);
+}
+
+.translation-card svg {
+    color: #D4AF37;
+    width: 32px;
+    height: 32px;
+}
+
+.translation-card h3 {
+    color: #F5F0E8;
+    font-size: 23px;
+}
+
+.translation-card p {
+    color: #C7D0DC;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* ======================================
+   MA GLOBAL — MOBILE VERSION
+   Экраны шириной до 768px
+====================================== */
+
+@media (max-width: 768px) {
+
+    /* Общие настройки */
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Шапка сайта */
+
+    header {
+        padding: 18px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .logo {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        font-size: 14px;
+        color: #D4AF37;
+    }
+
+    /* Главный экран */
+
+    .hero {
+        width: 100%;
+        min-height: 650px;
+        background-image:
+            linear-gradient(to bottom,
+                rgba(13, 25, 42, 0.65),
+                rgba(13, 25, 42, 0.85)),
+            url("images/hero-antalya.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-content {
+        max-width: none;
+        padding: 75px 20px 90px;
+    }
+
+    .hero-label {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .hero-button,
+    .translation-button {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 0 14px;
+        padding: 17px 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Наши услуги */
+
+    .services {
+        padding: 70px 20px;
+    }
+
+    .services h2 {
+        font-size: 32px;
+    }
+
+    .services-label {
+        font-size: 13px;
+    }
+
+    .services-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .service-card {
+        width: 100%;
+        max-width: none;
+        padding: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 22px;
+    }
+
+    .service-card p {
+        font-size: 16px;
+    }
+
+    /* Профессиональные переводы */
+
+    .translations {
+        padding: 70px 20px;
+    }
+
+    .translations h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .translations-label {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .translations-description {
+        max-width: none;
+        font-size: 16px;
+    }
+
+    .translations-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+        margin-top: 35px;
+    }
+
+    .translation-card {
+        width: 100%;
+        padding: 28px;
+    }
+
+    .translation-card h3 {
+        font-size: 21px;
+    }
+
+    .translation-card p {
+        font-size: 16px;
+    }
+
+    /* О нас */
+
+    .about {
+        padding: 70px 20px;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .about-content {
+        max-width: none;
+    }
+
+    .about h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .about-image {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    /* Контакты */
+
+    .contact {
+        padding: 75px 20px;
+    }
+
+    .contact h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .contact-description {
+        font-size: 16px;
+    }
+
+    .contact .hero-button {
+        margin: 0 auto;
+    }
+
+    /* Нижняя часть сайта */
+
+    .footer {
+        padding: 50px 20px 25px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+    }
+
+    .footer-brand h2 {
+        font-size: 25px;
+    }
+
+    .footer-brand p {
+        font-size: 15px;
+    }
+
+    .footer-contact {
+        width: 100%;
+    }
+
+    .footer-contact a {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        gap: 15px 22px;
+    }
+
+    .footer-nav a {
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        margin-top: 35px;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
+
+
+/* ==========================================================
+   MA GLOBAL — REFRESHED PREMIUM HEADER AND FIRST SCREEN
+   Original section styles retained above for easy comparison.
+   ========================================================== */
+:root {
+    --navy: #0D192A;
+    --gold: #D4AF37;
+    --ivory: #F5F0E8;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 90px;
+}
+
+body {
+    overflow-x: clip;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ivory);
+}
+
+.site-header {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: clamp(15px, 2.2vw, 38px);
+    padding: 14px clamp(24px, 4vw, 72px);
+    min-height: 94px;
+    background: #091523;
+    border-bottom: 1px solid rgba(212, 175, 55, .15);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    color: var(--ivory);
+    text-decoration: none;
+}
+
+.brand-monogram {
+    display: block;
+    width: 90px;
+    height: 66px;
+}
+
+.brand-monogram svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.brand-divider {
+    height: 51px;
+    border-left: 1px solid #6b7582;
+}
+
+.brand-wordmark {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.brand-wordmark>span {
+    font: normal clamp(19px, 1.65vw, 26px) Georgia, serif;
+    letter-spacing: .035em;
+}
+
+.brand-wordmark small {
+    font-size: 11px;
+    letter-spacing: .23em;
+    color: var(--gold);
+    text-align: center;
+}
+
+.primary-nav {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(12px, 1.5vw, 27px);
+    min-width: 0;
+}
+
+.primary-nav a {
+    white-space: nowrap;
+    font-size: clamp(12px, .95vw, 15px);
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+}
+
+.primary-nav a.active,
+.primary-nav a:hover {
+    border-color: var(--gold);
+    color: var(--ivory);
+    font-size: clamp(12px, .95vw, 15px);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-shrink: 0;
+}
+
+.language-indicator {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ivory);
+    font-size: 14px;
+    cursor: default;
+}
+
+.language-indicator svg:first-child {
+    width: 23px;
+    height: 23px;
+}
+
+.language-indicator svg:last-child {
+    width: 13px;
+    height: 13px;
+}
+
+.header-contact {
+    border: 1px solid var(--gold);
+    border-radius: 4px;
+    padding: 15px 18px;
+    color: #edca79;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: background .2s, color .2s;
+}
+
+.header-contact:hover {
+    background: var(--gold);
+    color: var(--navy);
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.intro-stage {
+    position: relative;
+    isolation: isolate;
+    padding-bottom: 42px;
+    background: #091523;
+}
+
+.intro-stage::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: linear-gradient(to bottom, rgba(9, 21, 35, .1) 0%, rgba(9, 21, 35, .04) 35%, rgba(9, 21, 35, .68) 72%, #091523 100%), linear-gradient(to right, rgba(9, 21, 35, .98) 0%, rgba(9, 21, 35, .83) 26%, rgba(9, 21, 35, .34) 57%, rgba(9, 21, 35, .08) 100%), url("images/hero-antalya.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 42%;
+}
+
+.intro-stage .hero {
+    min-height: 0;
+    background: none;
+    padding: 70px clamp(24px, 6vw, 96px) 30px;
+    position: relative;
+}
+
+.intro-stage .hero-content {
+    max-width: 660px;
+    padding: 0;
+}
+
+.intro-stage .hero-label {
+    font-size: 14px;
+    letter-spacing: .15em;
+    margin: 0 0 25px;
+}
+
+.intro-stage .hero h1 {
+    font: normal clamp(44px, 4.35vw, 67px)/1.12 Georgia, serif;
+    margin: 0 0 25px;
+    text-wrap: balance;
+}
+
+.intro-stage .hero-description {
+    max-width: 540px;
+    font-size: 18px;
+    margin: 0 0 25px;
+}
+
+.intro-stage .hero-button,
+.intro-stage .translation-button {
+    margin: 0 12px 12px 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.intro-stage .location-pill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 9px;
+    margin: 30px 0 0 auto;
+    width: max-content;
+    max-width: 100%;
+    background: rgba(8, 18, 30, .68);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(212, 175, 55, .16);
+    border-radius: 4px;
+    padding: 11px 16px;
+    font-size: 14px;
+}
+
+.location-pill svg {
+    color: var(--gold);
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.intro-stage .services {
+    background: transparent;
+    padding: 5px clamp(24px, 4vw, 72px) 25px;
+}
+
+.intro-stage .services-label {
+    color: var(--gold);
+    font-size: 12px;
+    letter-spacing: .16em;
+    margin: 0 0 7px;
+}
+
+.intro-stage .services h2 {
+    font: normal 26px Georgia, serif;
+    margin: 0 0 18px;
+}
+
+.intro-stage .services-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.intro-stage .service-card {
+    max-width: none;
+    min-width: 0;
+    min-height: 192px;
+    padding: 27px 28px;
+    background: rgba(9, 22, 37, .79);
+    border: 1px solid rgba(197, 206, 216, .3);
+    border-radius: 9px;
+    backdrop-filter: blur(8px);
+}
+
+.intro-stage .service-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(212, 175, 55, .75);
+}
+
+.intro-stage .service-icon svg {
+    width: 35px;
+    height: 35px;
+}
+
+.intro-stage .service-card h3 {
+    font: normal 25px Georgia, serif;
+    margin: 15px 0 12px;
+}
+
+.intro-stage .service-card p {
+    font-size: 15px;
+    margin: 0;
+}
+
+/* Better transitions without changing text size or shifting the navigation */
+nav a:hover {
+    font-size: inherit;
+}
+
+@media (max-width:1280px) {
+    .site-header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .primary-nav {
+        order: 3;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .header-actions {
+        margin-left: auto;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        scroll-padding-top: 20px;
+    }
+
+    .site-header {
+        padding: 12px 18px;
+        min-height: 72px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .brand {
+        gap: 8px;
+    }
+
+    .brand-monogram {
+        width: 51px;
+        height: 42px;
+    }
+
+    .brand-divider {
+        height: 36px;
+    }
+
+    .brand-wordmark>span {
+        font-size: 16px;
+    }
+
+    .brand-wordmark small {
+        font-size: 8px;
+    }
+
+    .primary-nav,
+    .header-actions {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: relative;
+    }
+
+    .mobile-menu summary {
+        list-style: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--gold);
+        font-size: 13px;
+    }
+
+    .mobile-menu summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .mobile-menu summary svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .mobile-menu nav {
+        position: absolute;
+        z-index: 20;
+        right: 0;
+        top: calc(100% + 16px);
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        min-width: 210px;
+        background: #101e32;
+        border: 1px solid rgba(212, 175, 55, .45);
+        border-radius: 8px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, .35);
+        padding: 8px;
+    }
+
+    .mobile-menu nav a {
+        font-size: 15px;
+        padding: 12px;
+        white-space: nowrap;
+    }
+
+    .mobile-menu nav a:hover {
+        font-size: 15px;
+    }
+
+    .intro-stage {
+        padding-bottom: 18px;
+    }
+
+    .intro-stage::before {
+        background-image: linear-gradient(to bottom, rgba(9, 21, 35, .38), rgba(9, 21, 35, .82) 52%, #091523 95%), linear-gradient(to right, rgba(9, 21, 35, .65), rgba(9, 21, 35, .15)), url("images/hero-antalya.png");
+        background-position: center top;
+    }
+
+    .intro-stage .hero {
+        min-height: 0;
+        padding: 65px 20px 20px;
+    }
+
+    .intro-stage .hero-content {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .intro-stage .hero-label {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+
+    .intro-stage .hero h1 {
+        font-size: clamp(34px, 8.5vw, 44px);
+        line-height: 1.15;
+    }
+
+    .intro-stage .hero-description {
+        font-size: 16px;
+    }
+
+    .intro-stage .hero-button,
+    .intro-stage .translation-button {
+        display: block;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 0 12px;
+        padding: 16px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .intro-stage .location-pill {
+        margin: 22px 0 0;
+        width: 100%;
+        font-size: 12px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .intro-stage .services {
+        padding: 25px 20px 35px;
+    }
+
+    .intro-stage .services h2 {
+        font-size: 28px;
+    }
+
+    .intro-stage .services-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    .intro-stage .service-card {
+        min-height: 0;
+        padding: 23px;
+    }
+
+    .intro-stage .service-card h3 {
+        font-size: 23px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1050px) {
+    .intro-stage .services-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .intro-stage .service-card {
+        padding: 19px;
+    }
+
+    .intro-stage .service-card h3 {
+        font-size: 21px;
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+    }
+}
